@@ -7,8 +7,8 @@ const fileInput = document.querySelector(".file-input"),
   previewImg = document.querySelector(".preview-img img"),
   resetFilterBtn = document.querySelector(".reset-filter"),
   chooseImgBtn = document.querySelector(".choose-img"),
-  saveImgBtn = document.querySelector(".save-img");
-imgHolder = document.querySelector(".imgHolder");
+  saveImgBtn = document.querySelector(".save-img"),
+  imgHolder = document.querySelector(".imgHolder");
 
 let brightness = "100",
   saturation = "100",
